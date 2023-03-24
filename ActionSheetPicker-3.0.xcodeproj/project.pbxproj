@@ -1,0 +1,744 @@
+// !$*UTF8*$!
+{
+   archiveVersion = "1";
+   objectVersion = "46";
+   objects = {
+      "OBJ_1" = {
+         isa = "PBXProject";
+         attributes = {
+            LastSwiftMigration = "9999";
+            LastUpgradeCheck = "9999";
+         };
+         buildConfigurationList = "OBJ_2";
+         compatibilityVersion = "Xcode 3.2";
+         developmentRegion = "en";
+         hasScannedForEncodings = "0";
+         knownRegions = (
+            "en"
+         );
+         mainGroup = "OBJ_5";
+         productRefGroup = "OBJ_30";
+         projectDirPath = ".";
+         targets = (
+            "actionsheetpicker_fork_git::ActionSheetPicker-3.0::ProductTarget",
+            "actionsheetpicker_fork_git::SwiftPMPackageDescription",
+            "actionsheetpicker_fork_git::CoreActionSheetPicker"
+         );
+      };
+      "OBJ_10" = {
+         isa = "PBXFileReference";
+         path = "ActionSheetDatePicker.m";
+         sourceTree = "<group>";
+      };
+      "OBJ_11" = {
+         isa = "PBXFileReference";
+         path = "ActionSheetDistancePicker.m";
+         sourceTree = "<group>";
+      };
+      "OBJ_12" = {
+         isa = "PBXFileReference";
+         path = "ActionSheetLocalePicker.m";
+         sourceTree = "<group>";
+      };
+      "OBJ_13" = {
+         isa = "PBXFileReference";
+         path = "ActionSheetMultipleStringPicker.m";
+         sourceTree = "<group>";
+      };
+      "OBJ_14" = {
+         isa = "PBXFileReference";
+         path = "ActionSheetStringPicker.m";
+         sourceTree = "<group>";
+      };
+      "OBJ_15" = {
+         isa = "PBXFileReference";
+         path = "DistancePickerView.m";
+         sourceTree = "<group>";
+      };
+      "OBJ_16" = {
+         isa = "PBXFileReference";
+         path = "SWActionSheet.m";
+         sourceTree = "<group>";
+      };
+      "OBJ_17" = {
+         isa = "PBXGroup";
+         children = (
+            "OBJ_18",
+            "OBJ_19",
+            "OBJ_20",
+            "OBJ_21",
+            "OBJ_22",
+            "OBJ_23",
+            "OBJ_24",
+            "OBJ_25",
+            "OBJ_26",
+            "OBJ_27",
+            "OBJ_28"
+         );
+         name = "include";
+         path = "include";
+         sourceTree = "<group>";
+      };
+      "OBJ_18" = {
+         isa = "PBXFileReference";
+         path = "ActionSheetCustomPicker.h";
+         sourceTree = "<group>";
+      };
+      "OBJ_19" = {
+         isa = "PBXFileReference";
+         path = "ActionSheetStringPicker.h";
+         sourceTree = "<group>";
+      };
+      "OBJ_2" = {
+         isa = "XCConfigurationList";
+         buildConfigurations = (
+            "OBJ_3",
+            "OBJ_4"
+         );
+         defaultConfigurationIsVisible = "0";
+         defaultConfigurationName = "Release";
+      };
+      "OBJ_20" = {
+         isa = "PBXFileReference";
+         path = "SWActionSheet.h";
+         sourceTree = "<group>";
+      };
+      "OBJ_21" = {
+         isa = "PBXFileReference";
+         path = "CoreActionSheetPicker.h";
+         sourceTree = "<group>";
+      };
+      "OBJ_22" = {
+         isa = "PBXFileReference";
+         path = "AbstractActionSheetPicker.h";
+         sourceTree = "<group>";
+      };
+      "OBJ_23" = {
+         isa = "PBXFileReference";
+         path = "ActionSheetMultipleStringPicker.h";
+         sourceTree = "<group>";
+      };
+      "OBJ_24" = {
+         isa = "PBXFileReference";
+         path = "DistancePickerView.h";
+         sourceTree = "<group>";
+      };
+      "OBJ_25" = {
+         isa = "PBXFileReference";
+         path = "ActionSheetCustomPickerDelegate.h";
+         sourceTree = "<group>";
+      };
+      "OBJ_26" = {
+         isa = "PBXFileReference";
+         path = "ActionSheetDatePicker.h";
+         sourceTree = "<group>";
+      };
+      "OBJ_27" = {
+         isa = "PBXFileReference";
+         path = "ActionSheetLocalePicker.h";
+         sourceTree = "<group>";
+      };
+      "OBJ_28" = {
+         isa = "PBXFileReference";
+         path = "ActionSheetDistancePicker.h";
+         sourceTree = "<group>";
+      };
+      "OBJ_29" = {
+         isa = "PBXGroup";
+         children = (
+         );
+         name = "Tests";
+         path = "";
+         sourceTree = "SOURCE_ROOT";
+      };
+      "OBJ_3" = {
+         isa = "XCBuildConfiguration";
+         buildSettings = {
+            CLANG_ENABLE_OBJC_ARC = "YES";
+            COMBINE_HIDPI_IMAGES = "YES";
+            COPY_PHASE_STRIP = "NO";
+            DEBUG_INFORMATION_FORMAT = "dwarf";
+            DYLIB_INSTALL_NAME_BASE = "@rpath";
+            ENABLE_NS_ASSERTIONS = "YES";
+            GCC_OPTIMIZATION_LEVEL = "0";
+            GCC_PREPROCESSOR_DEFINITIONS = (
+               "$(inherited)",
+               "SWIFT_PACKAGE=1",
+               "DEBUG=1"
+            );
+            MACOSX_DEPLOYMENT_TARGET = "10.10";
+            ONLY_ACTIVE_ARCH = "YES";
+            OTHER_SWIFT_FLAGS = (
+               "$(inherited)",
+               "-DXcode"
+            );
+            PRODUCT_NAME = "$(TARGET_NAME)";
+            SDKROOT = "macosx";
+            SUPPORTED_PLATFORMS = (
+               "$(AVAILABLE_PLATFORMS)"
+            );
+            SUPPORTS_MACCATALYST = "YES";
+            SWIFT_ACTIVE_COMPILATION_CONDITIONS = (
+               "$(inherited)",
+               "SWIFT_PACKAGE",
+               "DEBUG"
+            );
+            SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+            USE_HEADERMAP = "NO";
+         };
+         name = "Debug";
+      };
+      "OBJ_30" = {
+         isa = "PBXGroup";
+         children = (
+            "actionsheetpicker_fork_git::CoreActionSheetPicker::Product"
+         );
+         name = "Products";
+         path = "";
+         sourceTree = "BUILT_PRODUCTS_DIR";
+      };
+      "OBJ_32" = {
+         isa = "PBXFileReference";
+         path = "Screenshots";
+         sourceTree = "SOURCE_ROOT";
+      };
+      "OBJ_33" = {
+         isa = "PBXFileReference";
+         path = "ActionSheetPicker-3.0.xcworkspace";
+         sourceTree = "SOURCE_ROOT";
+      };
+      "OBJ_34" = {
+         isa = "PBXFileReference";
+         path = "Example Projects";
+         sourceTree = "SOURCE_ROOT";
+      };
+      "OBJ_35" = {
+         isa = "PBXFileReference";
+         path = "CoreActionSheetPicker";
+         sourceTree = "SOURCE_ROOT";
+      };
+      "OBJ_36" = {
+         isa = "PBXFileReference";
+         path = "AUTHORS.md";
+         sourceTree = "<group>";
+      };
+      "OBJ_37" = {
+         isa = "PBXFileReference";
+         path = "ActionSheetPicker-3.0.podspec";
+         sourceTree = "<group>";
+      };
+      "OBJ_38" = {
+         isa = "PBXFileReference";
+         path = "BASIC-USAGE.md";
+         sourceTree = "<group>";
+      };
+      "OBJ_39" = {
+         isa = "PBXFileReference";
+         path = "LICENSE";
+         sourceTree = "<group>";
+      };
+      "OBJ_4" = {
+         isa = "XCBuildConfiguration";
+         buildSettings = {
+            CLANG_ENABLE_OBJC_ARC = "YES";
+            COMBINE_HIDPI_IMAGES = "YES";
+            COPY_PHASE_STRIP = "YES";
+            DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+            DYLIB_INSTALL_NAME_BASE = "@rpath";
+            GCC_OPTIMIZATION_LEVEL = "s";
+            GCC_PREPROCESSOR_DEFINITIONS = (
+               "$(inherited)",
+               "SWIFT_PACKAGE=1"
+            );
+            MACOSX_DEPLOYMENT_TARGET = "10.10";
+            OTHER_SWIFT_FLAGS = (
+               "$(inherited)",
+               "-DXcode"
+            );
+            PRODUCT_NAME = "$(TARGET_NAME)";
+            SDKROOT = "macosx";
+            SUPPORTED_PLATFORMS = (
+               "$(AVAILABLE_PLATFORMS)"
+            );
+            SUPPORTS_MACCATALYST = "YES";
+            SWIFT_ACTIVE_COMPILATION_CONDITIONS = (
+               "$(inherited)",
+               "SWIFT_PACKAGE"
+            );
+            SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+            USE_HEADERMAP = "NO";
+         };
+         name = "Release";
+      };
+      "OBJ_40" = {
+         isa = "PBXFileReference";
+         path = "CHANGELOG.md";
+         sourceTree = "<group>";
+      };
+      "OBJ_41" = {
+         isa = "PBXFileReference";
+         path = "README.md";
+         sourceTree = "<group>";
+      };
+      "OBJ_42" = {
+         isa = "PBXFileReference";
+         path = "yarn.lock";
+         sourceTree = "<group>";
+      };
+      "OBJ_43" = {
+         isa = "PBXFileReference";
+         path = "CONTRIBUTING.md";
+         sourceTree = "<group>";
+      };
+      "OBJ_45" = {
+         isa = "XCConfigurationList";
+         buildConfigurations = (
+            "OBJ_46",
+            "OBJ_47"
+         );
+         defaultConfigurationIsVisible = "0";
+         defaultConfigurationName = "Release";
+      };
+      "OBJ_46" = {
+         isa = "XCBuildConfiguration";
+         buildSettings = {
+         };
+         name = "Debug";
+      };
+      "OBJ_47" = {
+         isa = "XCBuildConfiguration";
+         buildSettings = {
+         };
+         name = "Release";
+      };
+      "OBJ_48" = {
+         isa = "PBXTargetDependency";
+         target = "actionsheetpicker_fork_git::CoreActionSheetPicker";
+      };
+      "OBJ_5" = {
+         isa = "PBXGroup";
+         children = (
+            "OBJ_6",
+            "OBJ_7",
+            "OBJ_29",
+            "OBJ_30",
+            "OBJ_32",
+            "OBJ_33",
+            "OBJ_34",
+            "OBJ_35",
+            "OBJ_36",
+            "OBJ_37",
+            "OBJ_38",
+            "OBJ_39",
+            "OBJ_40",
+            "OBJ_41",
+            "OBJ_42",
+            "OBJ_43"
+         );
+         path = "";
+         sourceTree = "<group>";
+      };
+      "OBJ_51" = {
+         isa = "XCConfigurationList";
+         buildConfigurations = (
+            "OBJ_52",
+            "OBJ_53"
+         );
+         defaultConfigurationIsVisible = "0";
+         defaultConfigurationName = "Release";
+      };
+      "OBJ_52" = {
+         isa = "XCBuildConfiguration";
+         buildSettings = {
+            LD = "/usr/bin/true";
+            OTHER_SWIFT_FLAGS = (
+               "-swift-version",
+               "5",
+               "-I",
+               "$(TOOLCHAIN_DIR)/usr/lib/swift/pm/ManifestAPI",
+               "-sdk",
+               "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.1.sdk",
+               "-package-description-version",
+               "5.1.0"
+            );
+            SWIFT_VERSION = "5.0";
+         };
+         name = "Debug";
+      };
+      "OBJ_53" = {
+         isa = "XCBuildConfiguration";
+         buildSettings = {
+            LD = "/usr/bin/true";
+            OTHER_SWIFT_FLAGS = (
+               "-swift-version",
+               "5",
+               "-I",
+               "$(TOOLCHAIN_DIR)/usr/lib/swift/pm/ManifestAPI",
+               "-sdk",
+               "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.1.sdk",
+               "-package-description-version",
+               "5.1.0"
+            );
+            SWIFT_VERSION = "5.0";
+         };
+         name = "Release";
+      };
+      "OBJ_54" = {
+         isa = "PBXSourcesBuildPhase";
+         files = (
+            "OBJ_55"
+         );
+      };
+      "OBJ_55" = {
+         isa = "PBXBuildFile";
+         fileRef = "OBJ_6";
+      };
+      "OBJ_56" = {
+         isa = "XCConfigurationList";
+         buildConfigurations = (
+            "OBJ_57",
+            "OBJ_58"
+         );
+         defaultConfigurationIsVisible = "0";
+         defaultConfigurationName = "Release";
+      };
+      "OBJ_57" = {
+         isa = "XCBuildConfiguration";
+         buildSettings = {
+            CLANG_ENABLE_MODULES = "YES";
+            CURRENT_PROJECT_VERSION = "1";
+            DEFINES_MODULE = "YES";
+            DRIVERKIT_DEPLOYMENT_TARGET = "19.0";
+            ENABLE_TESTABILITY = "YES";
+            FRAMEWORK_SEARCH_PATHS = (
+               "$(inherited)",
+               "$(PLATFORM_DIR)/Developer/Library/Frameworks"
+            );
+            HEADER_SEARCH_PATHS = (
+               "$(inherited)",
+               "$(SRCROOT)/CoreActionSheetPicker/CoreActionSheetPicker/Pickers/include"
+            );
+            INFOPLIST_FILE = "ActionSheetPicker-3.0.xcodeproj/CoreActionSheetPicker_Info.plist";
+            IPHONEOS_DEPLOYMENT_TARGET = "11.0";
+            LD_RUNPATH_SEARCH_PATHS = (
+               "$(inherited)",
+               "$(TOOLCHAIN_DIR)/usr/lib/swift/macosx"
+            );
+            MACOSX_DEPLOYMENT_TARGET = "10.13";
+            OTHER_CFLAGS = (
+               "$(inherited)"
+            );
+            OTHER_LDFLAGS = (
+               "$(inherited)"
+            );
+            OTHER_SWIFT_FLAGS = (
+               "$(inherited)"
+            );
+            PRODUCT_BUNDLE_IDENTIFIER = "CoreActionSheetPicker";
+            PRODUCT_MODULE_NAME = "$(TARGET_NAME:c99extidentifier)";
+            PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+            SKIP_INSTALL = "YES";
+            SWIFT_ACTIVE_COMPILATION_CONDITIONS = (
+               "$(inherited)"
+            );
+            TARGET_NAME = "CoreActionSheetPicker";
+            TVOS_DEPLOYMENT_TARGET = "11.0";
+            WATCHOS_DEPLOYMENT_TARGET = "4.0";
+         };
+         name = "Debug";
+      };
+      "OBJ_58" = {
+         isa = "XCBuildConfiguration";
+         buildSettings = {
+            CLANG_ENABLE_MODULES = "YES";
+            CURRENT_PROJECT_VERSION = "1";
+            DEFINES_MODULE = "YES";
+            DRIVERKIT_DEPLOYMENT_TARGET = "19.0";
+            ENABLE_TESTABILITY = "YES";
+            FRAMEWORK_SEARCH_PATHS = (
+               "$(inherited)",
+               "$(PLATFORM_DIR)/Developer/Library/Frameworks"
+            );
+            HEADER_SEARCH_PATHS = (
+               "$(inherited)",
+               "$(SRCROOT)/CoreActionSheetPicker/CoreActionSheetPicker/Pickers/include"
+            );
+            INFOPLIST_FILE = "ActionSheetPicker-3.0.xcodeproj/CoreActionSheetPicker_Info.plist";
+            IPHONEOS_DEPLOYMENT_TARGET = "11.0";
+            LD_RUNPATH_SEARCH_PATHS = (
+               "$(inherited)",
+               "$(TOOLCHAIN_DIR)/usr/lib/swift/macosx"
+            );
+            MACOSX_DEPLOYMENT_TARGET = "10.13";
+            OTHER_CFLAGS = (
+               "$(inherited)"
+            );
+            OTHER_LDFLAGS = (
+               "$(inherited)"
+            );
+            OTHER_SWIFT_FLAGS = (
+               "$(inherited)"
+            );
+            PRODUCT_BUNDLE_IDENTIFIER = "CoreActionSheetPicker";
+            PRODUCT_MODULE_NAME = "$(TARGET_NAME:c99extidentifier)";
+            PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+            SKIP_INSTALL = "YES";
+            SWIFT_ACTIVE_COMPILATION_CONDITIONS = (
+               "$(inherited)"
+            );
+            TARGET_NAME = "CoreActionSheetPicker";
+            TVOS_DEPLOYMENT_TARGET = "11.0";
+            WATCHOS_DEPLOYMENT_TARGET = "4.0";
+         };
+         name = "Release";
+      };
+      "OBJ_59" = {
+         isa = "PBXSourcesBuildPhase";
+         files = (
+            "OBJ_60",
+            "OBJ_61",
+            "OBJ_62",
+            "OBJ_63",
+            "OBJ_64",
+            "OBJ_65",
+            "OBJ_66",
+            "OBJ_67",
+            "OBJ_68"
+         );
+      };
+      "OBJ_6" = {
+         isa = "PBXFileReference";
+         explicitFileType = "sourcecode.swift";
+         path = "Package.swift";
+         sourceTree = "<group>";
+      };
+      "OBJ_60" = {
+         isa = "PBXBuildFile";
+         fileRef = "OBJ_8";
+      };
+      "OBJ_61" = {
+         isa = "PBXBuildFile";
+         fileRef = "OBJ_9";
+      };
+      "OBJ_62" = {
+         isa = "PBXBuildFile";
+         fileRef = "OBJ_10";
+      };
+      "OBJ_63" = {
+         isa = "PBXBuildFile";
+         fileRef = "OBJ_11";
+      };
+      "OBJ_64" = {
+         isa = "PBXBuildFile";
+         fileRef = "OBJ_12";
+      };
+      "OBJ_65" = {
+         isa = "PBXBuildFile";
+         fileRef = "OBJ_13";
+      };
+      "OBJ_66" = {
+         isa = "PBXBuildFile";
+         fileRef = "OBJ_14";
+      };
+      "OBJ_67" = {
+         isa = "PBXBuildFile";
+         fileRef = "OBJ_15";
+      };
+      "OBJ_68" = {
+         isa = "PBXBuildFile";
+         fileRef = "OBJ_16";
+      };
+      "OBJ_69" = {
+         isa = "PBXHeadersBuildPhase";
+         files = (
+            "OBJ_70",
+            "OBJ_71",
+            "OBJ_72",
+            "OBJ_73",
+            "OBJ_74",
+            "OBJ_75",
+            "OBJ_76",
+            "OBJ_77",
+            "OBJ_78",
+            "OBJ_79",
+            "OBJ_80"
+         );
+      };
+      "OBJ_7" = {
+         isa = "PBXGroup";
+         children = (
+            "OBJ_8",
+            "OBJ_9",
+            "OBJ_10",
+            "OBJ_11",
+            "OBJ_12",
+            "OBJ_13",
+            "OBJ_14",
+            "OBJ_15",
+            "OBJ_16",
+            "OBJ_17"
+         );
+         name = "Sources";
+         path = "CoreActionSheetPicker/CoreActionSheetPicker/Pickers";
+         sourceTree = "SOURCE_ROOT";
+      };
+      "OBJ_70" = {
+         isa = "PBXBuildFile";
+         fileRef = "OBJ_18";
+         settings = {
+            ATTRIBUTES = (
+               "Public"
+            );
+         };
+      };
+      "OBJ_71" = {
+         isa = "PBXBuildFile";
+         fileRef = "OBJ_19";
+         settings = {
+            ATTRIBUTES = (
+               "Public"
+            );
+         };
+      };
+      "OBJ_72" = {
+         isa = "PBXBuildFile";
+         fileRef = "OBJ_20";
+         settings = {
+            ATTRIBUTES = (
+               "Public"
+            );
+         };
+      };
+      "OBJ_73" = {
+         isa = "PBXBuildFile";
+         fileRef = "OBJ_21";
+         settings = {
+            ATTRIBUTES = (
+               "Public"
+            );
+         };
+      };
+      "OBJ_74" = {
+         isa = "PBXBuildFile";
+         fileRef = "OBJ_22";
+         settings = {
+            ATTRIBUTES = (
+               "Public"
+            );
+         };
+      };
+      "OBJ_75" = {
+         isa = "PBXBuildFile";
+         fileRef = "OBJ_23";
+         settings = {
+            ATTRIBUTES = (
+               "Public"
+            );
+         };
+      };
+      "OBJ_76" = {
+         isa = "PBXBuildFile";
+         fileRef = "OBJ_24";
+         settings = {
+            ATTRIBUTES = (
+               "Public"
+            );
+         };
+      };
+      "OBJ_77" = {
+         isa = "PBXBuildFile";
+         fileRef = "OBJ_25";
+         settings = {
+            ATTRIBUTES = (
+               "Public"
+            );
+         };
+      };
+      "OBJ_78" = {
+         isa = "PBXBuildFile";
+         fileRef = "OBJ_26";
+         settings = {
+            ATTRIBUTES = (
+               "Public"
+            );
+         };
+      };
+      "OBJ_79" = {
+         isa = "PBXBuildFile";
+         fileRef = "OBJ_27";
+         settings = {
+            ATTRIBUTES = (
+               "Public"
+            );
+         };
+      };
+      "OBJ_8" = {
+         isa = "PBXFileReference";
+         path = "AbstractActionSheetPicker.m";
+         sourceTree = "<group>";
+      };
+      "OBJ_80" = {
+         isa = "PBXBuildFile";
+         fileRef = "OBJ_28";
+         settings = {
+            ATTRIBUTES = (
+               "Public"
+            );
+         };
+      };
+      "OBJ_81" = {
+         isa = "PBXFrameworksBuildPhase";
+         files = (
+         );
+      };
+      "OBJ_9" = {
+         isa = "PBXFileReference";
+         path = "ActionSheetCustomPicker.m";
+         sourceTree = "<group>";
+      };
+      "actionsheetpicker_fork_git::ActionSheetPicker-3.0::ProductTarget" = {
+         isa = "PBXAggregateTarget";
+         buildConfigurationList = "OBJ_45";
+         buildPhases = (
+         );
+         dependencies = (
+            "OBJ_48"
+         );
+         name = "ActionSheetPicker-3.0";
+         productName = "ActionSheetPicker-3.0";
+      };
+      "actionsheetpicker_fork_git::CoreActionSheetPicker" = {
+         isa = "PBXNativeTarget";
+         buildConfigurationList = "OBJ_56";
+         buildPhases = (
+            "OBJ_59",
+            "OBJ_69",
+            "OBJ_81"
+         );
+         dependencies = (
+         );
+         name = "CoreActionSheetPicker";
+         productName = "CoreActionSheetPicker";
+         productReference = "actionsheetpicker_fork_git::CoreActionSheetPicker::Product";
+         productType = "com.apple.product-type.framework";
+      };
+      "actionsheetpicker_fork_git::CoreActionSheetPicker::Product" = {
+         isa = "PBXFileReference";
+         path = "CoreActionSheetPicker.framework";
+         sourceTree = "BUILT_PRODUCTS_DIR";
+      };
+      "actionsheetpicker_fork_git::SwiftPMPackageDescription" = {
+         isa = "PBXNativeTarget";
+         buildConfigurationList = "OBJ_51";
+         buildPhases = (
+            "OBJ_54"
+         );
+         dependencies = (
+         );
+         name = "ActionSheetPicker-3.0PackageDescription";
+         productName = "ActionSheetPicker-3.0PackageDescription";
+         productType = "com.apple.product-type.framework";
+      };
+   };
+   rootObject = "OBJ_1";
+}
